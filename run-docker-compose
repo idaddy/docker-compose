@@ -1,0 +1,12 @@
+#!/bin/bash
+
+
+if [ ! -z $PROJECT_PATH ]; then
+    cd $PROJECT_PATH
+fi
+
+
+pwd
+
+
+/usr/local/bin/docker-compose $@
